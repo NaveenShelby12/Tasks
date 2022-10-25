@@ -1,0 +1,88 @@
+body {
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.container {
+    border: 0;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.left {
+    height: 100vh;
+    width: 55vw;
+    background-color: royalblue;
+}
+
+.right {
+    height: 100vh;
+    width: 40vw;
+    /* background-color: greenyellow; */
+}
+.container2{
+    display: inline-block;
+    margin-top: 25%;
+    margin-left: 25%;
+    border: 2px sold gray;
+}
+.one{
+    margin-bottom: 0;
+}
+.sec{
+    margin-top: 0;
+}
+.tag1{
+    margin-bottom: 0;
+}
+.box{
+    height: 35px;
+    width: 100%;
+    border-radius: 4px;
+    border-width: 0ch;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.box1{
+    width: 103%;
+    height: 37px;
+    outline: none;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+.tag2{
+    margin-bottom: 0%;
+}
+.bottom{
+    margin-top: 12px;
+}
+.last{
+    margin-top: 35%;
+    margin-left: 9%;
+}
+.btn1{
+    background-color: rgb(17, 194, 96);
+}
+.btn2{
+    background-color: black;
+}
+.err1{
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.err2{
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
